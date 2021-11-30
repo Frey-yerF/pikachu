@@ -110,7 +110,7 @@ footer p {
     text-align: center;
 }
 
-/* GALLERY */
+/* GALLERY AREA */
 
 .gallery-container {
     overflow: auto;
@@ -123,4 +123,37 @@ footer p {
     padding: 5px;
     box-sizing: border-box;
     height: 200px;
+}
+
+@media screen and (max-width: 750px) {
+    .gallery-image {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    #logo {
+        /* display: none; */
+        position: relative;
+        margin-left: 35%;
+    }
+}
+
+/* ABOUT AREA */
+
+.about-container {
+    overflow: auto;
+    background-color: khaki;
+}
+
+.image-container {
+    margin: 0;
+    float: left;
+    padding: 20px;
+}
+
+.about-image {
+    float: left;
+    box-sizing: border-box;
+    margin: 0;
 }
